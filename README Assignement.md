@@ -1,6 +1,8 @@
-# Team-Profile-Generator
+# Module 12 Object-Oriented Programming: Team Profile Generator
 
-Team Profile Generator is a command-line-input application run in Node that requests information from the user about members of an engineering team and generates an HTML file displaying that information.
+## Your Task
+
+Your task is to take the given starter code and convert it into a working Node.js command-line application. This application will take in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. You have been provided with tests, so make sure every part of your code passes each provided test.
 
 ## User Story
 
@@ -69,13 +71,6 @@ The following image shows a mock-up of the generated HTML’s appearance and fun
 The styling in the image is just an example, so feel free to add your own.
 
 ---
-## License
-
-MIT license
-
-## Contributions
-
-Not applicable
 
 ## Getting Started
 
@@ -100,3 +95,48 @@ node index.js
 * You may need to check if the `output` folder exists and create it if it does not.
 
 ---
+
+## Grading Requirements
+
+This Challenge is graded based on the following criteria: 
+
+### Deliverables: 25%
+
+* A sample HTML file generated using the application must be submitted.
+
+* Your GitHub repository containing your application code.
+
+### Technical Acceptance Criteria: 50%
+
+* Satisfies all of the preceding acceptance criteria plus the following:
+
+	* Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
+
+	* All tests pass using the [Jest package](https://www.npmjs.com/package/jest).
+
+  * The application must have `Employee`, `Manager`, `Engineer`, and `Intern` classes.
+
+### Repository Quality: 25%
+
+* Repository has a unique name.
+
+* Repository follows best practices for file structure and naming conventions.
+
+* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+
+* Repository contains multiple descriptive commit messages.
+
+* Repository contains a high-quality readme with description.
+
+---
+
+## Review
+
+You are required to submit the following for review:
+
+* A sample HTML file generated using your application.
+
+* The URL of the GitHub repository, with a unique name and a readme describing the project.
+
+---
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
