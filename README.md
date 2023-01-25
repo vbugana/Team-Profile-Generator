@@ -53,7 +53,7 @@ As a manager a user want to generate a webpage that displays my team's basic inf
       * School
     * When a user decides to finish building their team then they exit the application, and the HTML is generated.
   * Call the `render` function (provided for you) and pass in an array containing all employee objects; 
-    * The `render` function will generate and return a block of HTML including templated divs for each employee!
+    * The `render` function will generate and return a block of HTML including templated <divs> for each employee!
   * Create an HTML file using the HTML returned from the `render` function. 
     * Write it to a file named `team.html` in the `output` folder. 
     * You can use the provided variable `outputPath` to target this location.
