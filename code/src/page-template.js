@@ -20,7 +20,8 @@ const generateTeam = team => {
         `;
     };
 
-    // creates the html for engineers
+    // create Engineer card
+
     const generateEngineer = engineer => {
         return `
         <div class="card employee-card">
@@ -39,7 +40,8 @@ const generateTeam = team => {
         `;
     };
 
-    // creates the html for interns
+    // create Intern card 
+
     const generateIntern = intern => {
         return `
         <div class="card employee-card">
@@ -58,6 +60,7 @@ const generateTeam = team => {
         `;
     };
 
+    // push array to page 
     const html = [];
 
     html.push(team
