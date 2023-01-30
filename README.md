@@ -77,6 +77,12 @@ The following image shows a mock-up of the generated HTML’s appearance and fun
 ![14-object-oriented-programming-challenge-demo](https://user-images.githubusercontent.com/61995940/214441798-3a77f3ab-d163-49d5-9163-1fdef4414f41.png)
 
 The styling in the image is just an example, so feel free to add your own.
+## Testing
+```bash
+npm run test
+```
+
+![image](https://user-images.githubusercontent.com/61995940/215623189-bc126231-e82b-432c-b5c2-92b8e5dd38cf.png)
 
 ## License
 
