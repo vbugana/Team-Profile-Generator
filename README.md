@@ -2,13 +2,23 @@
 
 Team Profile Generator is a command-line-input application run in Node that requests information from the user about members of an engineering team and generates an HTML file displaying that information.
 
+## Getting Started
+
+This Challenge will combine many of the skills we've covered so far. In addition to the User Story and Acceptance Criteria, we’ve provided some guidelines to help get started.
+
+Your application should use [Jest](https://www.npmjs.com/package/jest) for running the unit tests and [Inquirer](https://www.npmjs.com/package/inquirer) for collecting input from the user. The application will be invoked by using the following command:
+
+```bash
+node index.js
+```
+
 ## User Story
 
-As a manager a user want to generate a webpage that displays my team's basic info so that a user have quick access to their emails and GitHub profiles.
+As a manager a user want to generate a webpage that displays my team's basic info so that a user have quick access to their e-mails and GitHub profiles.
 
 ## Instructions
 
-* Create a command-line application that accepts accepts user input using the provided starter code.   
+* With a command-line create an application that accepts accepts user input using the provided starter code.   
   * Create classes for each team member provided and export them. The tests for these classes (in the `_tests_` directory) must ALL pass.     
     * The first class is an `Employee` parent class with the following properties and methods:       
       * `name`
@@ -30,8 +40,11 @@ As a manager a user want to generate a webpage that displays my team's basic inf
       * `school`
       * `getSchool()`
       * `getRole()`&mdash;overridden to return `'Intern'`
-    * Finally, although it’s not a requirement, consider adding validation to ensure that user input is in the proper format.   
-  * Write code in `index.js` that uses inquirer to gather information about the development team members and creates objects for each team member using the correct classes as blueprints.
+  
+  * The code in `index.js`  uses inquirer to gather information about the development team members and creates objects for each team member using the correct classes as blueprints.
+
+## Expected output
+
     * When a user starts the application then they are prompted to enter the **team manager**’s:
       * Name
       * Employee ID
@@ -56,9 +69,6 @@ As a manager a user want to generate a webpage that displays my team's basic inf
     * The `render` function will generate and return a block of HTML including templated <divs> for each employee!
   * Create an HTML file using the HTML returned from the `render` function. 
     * Write it to a file named `team.html` in the `output` folder. 
-    * You can use the provided variable `outputPath` to target this location.
-
----
 
 ## Mock-Up
 
@@ -68,35 +78,11 @@ The following image shows a mock-up of the generated HTML’s appearance and fun
 
 The styling in the image is just an example, so feel free to add your own.
 
----
 ## License
 
-MIT license
+MIT license [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Contributions
 
 Not applicable
 
-## Getting Started
-
-This Challenge will combine many of the skills we've covered so far. In addition to the User Story and Acceptance Criteria, we’ve provided some guidelines to help get started.
-
-Your application should use [Jest](https://www.npmjs.com/package/jest) for running the unit tests and [Inquirer](https://www.npmjs.com/package/inquirer) for collecting input from the user. The application will be invoked by using the following command:
-
-```bash
-node index.js
-```
-
----
-
-## Hints
-
-* You will want to make your methods as pure as possible. This means try to make your methods simple so that they are easier to test.
-
-* The different employee types should all inherit some methods and properties from a base class of `Employee`.
- 
-* Be sure to test out each class and verify it generates an object with the correct structure and methods. This structure will be crucial in order for the provided `render` function to work!
-  
-* You may need to check if the `output` folder exists and create it if it does not.
-
----
